@@ -1,7 +1,7 @@
 #let meta = (
   course-name: "Mạng máy tính",
   course-id: "CO3094",
-  title: "NETWORK DESIGN AND SIMULATION FOR A CRITICAL LARGE COMPANY",
+  title: "DEVELOP A SIMPLE FILE-SHARING APPLICATION",
   semester: 231,
   date: "11/2023",
   students: (
