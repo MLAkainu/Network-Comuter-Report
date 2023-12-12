@@ -3,3 +3,4 @@
 #include "03_protocol/index.typ"
 #include "04_socket/index.typ"
 #include "05_demo/index.typ"
+#include "06_errorhandle/index.typ"
