@@ -80,3 +80,26 @@ Flow của một TCP socket connection có thể được thể hiện như hìn
             image("../../components/assets/Activity_fe.png"))
 
 #pagebreak()
+== Status Code
+Ngoài ra, nhóm còn định nghĩa thêm một số status code để phục vụ cho việc trao đổi thông tin giữa server đến client và ngược lại.
+#figure(caption: [Các status code được định nghĩa],
+            table(
+  columns: (1fr, 1fr),
+  align: horizon, [*Status Code*],[*Mô tả*],
+  "200", "Đăng nhập thành công",
+  "201", "Đăng ký thành công",
+  "202", "Publish thành công",
+  "203", "Server muốn ping client",
+  "204", "Fetch thành công",
+  "205", "Download file thành công",
+  "400", "Yêu cầu không hợp lệ",
+  "401", "Không tìm thấy tài khoản",
+  "402", "Sai mật khẩu",
+  "403", "Tài khoản đã đăng nhập",
+  "404", "Tài khoản đã tồn tại",
+  "405", "Clietn thoát khỏi server",
+  "406", "File không tồn tại"
+))
+#figure(caption: [Trao đổi status code giữa client và server ],
+            image("../../components/assets/exchange_code.png"))
+#pagebreak()
